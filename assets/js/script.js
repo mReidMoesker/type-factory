@@ -8,11 +8,12 @@ const backgroundMusic = document.getElementById("background-music");
 const sidebar = document.querySelector(".sidebar");
 const topScoresList = document.querySelector(".top-scores");
 
+const topScores = [];
+
 let timer;
 let timeRemaining = 60;
 let score = 0; 
 let totalHits = 0;
-let topScores = [];
 let currentScore;
 
 const wordBank = [
