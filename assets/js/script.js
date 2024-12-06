@@ -16,7 +16,7 @@ const topScoresList = select(".top-scores");
 const topScores = [];
 
 let timer;
-let timeRemaining = 60;
+let timeRemaining = 15;
 let score = 0; 
 let totalHits = 0;
 let currentScore;
@@ -90,7 +90,7 @@ function hideSidebar() {
 function resetClock() {
   timerDisplay.innerText = "01:00";
   scoreDisplay.innerText = "0";
-  timeRemaining = 60;
+  timeRemaining = 15;
 }
 
 function resetInput() {
