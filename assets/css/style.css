@@ -109,20 +109,36 @@ body {
   }
 }
 
-button {
+.start-button {
   padding: 10px;
   border-radius: 50px;
-  border: 1px solid rgb(80, 80, 80);
-  background-color: rgb(153, 153, 153);
+  border: 1px solid rgb(0, 180, 129);
+  background-color: rgb(0, 155, 106);
   transition: 0.2s;
   color:rgb(0, 35, 6);
   font-weight: 700;
 }
 
-button:hover {
-  background-color: rgb(89, 0, 0);
+.start-button:hover {
+  background-color: rgb(0, 89, 67);
   transition: 0.2s;
   color:rgb(153, 153, 153);
+}
+
+.reset-button {
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid rgb(22, 224, 3);
+  background-color: rgb(0, 255, 21);
+  transition: 0.2s;
+  color:rgb(0, 35, 6);
+  font-weight: 700;
+}
+
+.reset-button:hover {
+  background-color: #053600;
+  transition: 0.2s;
+  color: #b6ffca;
 }
 
 .sidebar {
